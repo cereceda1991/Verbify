@@ -1,0 +1,80 @@
+.div {
+  background-color: #343434;
+  font-family: 'Sora', sans-serif;
+  width: fit-content;
+  border-radius: 18px;
+  border: 1px solid #D39245;
+  margin: 10px;
+  padding: 20px;
+  max-width: 294px;
+  float: right;
+  justify-content: center;
+}
+
+.div div p {
+  display: flex;
+  text-align: center;
+  margin-left: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.div hr {
+  background: #424242;
+  border: none;
+  height: 1px;
+  width: -webkit-fill-available;
+  margin: 10px;
+}
+
+.div span {
+  margin-block: 40px;
+}
+
+.div button {
+  font-family: 'Sora', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -webkit-fill-available;
+  background-color: transparent;
+  border: 0px;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: medium;
+}
+
+.div button:hover {
+  background-color: #D39245;
+}
+
+.div button:disabled {
+  background-color: transparent;
+}
+
+.themes {
+  margin-block: 40px;
+}
+
+.bottom {
+  display: flex;
+}
+
+.previous {
+  float: left;
+  width: 200px;
+  border-right: 1px solid #424242;
+}
+
+.next {
+  float: left;
+  width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .div {
+    width: 100%;
+    max-width: none;
+    float: none;
+  }
+
+}
