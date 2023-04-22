@@ -133,7 +133,6 @@ function ResponsiveHome() {
         <section className={styles.contenido__newsletter}>
           <h1>Recibe nuestras noticias</h1>
           <p>
-            {" "}
             Descubre nuevas formas de aprender y mejorar con nuestro newsletter
             lleno de contenido exclusivo y consejos prácticos.
           </p>
