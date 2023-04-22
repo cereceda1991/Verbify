@@ -9,8 +9,6 @@ import { signInUser } from "@/actions/authActions";
 import { useRouter } from "next/router";
 import { useForm, Controller } from "react-hook-form";
 
-import Swal from "sweetalert2";
-
 import Verbify from "../assets/Verbify.png";
 import Chat from "../assets/chat.png";
 interface Inputs {
