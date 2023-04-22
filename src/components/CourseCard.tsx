@@ -1,7 +1,7 @@
 import styles from "../styles/Card.module.css";
 
 interface Course {
-  key: string;
+  key: number;
   title: string;
   description: string;
   image: string;
